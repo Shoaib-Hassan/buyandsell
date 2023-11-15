@@ -189,29 +189,29 @@ const ChatApp = ({ navigation, route }) => {
         const BuyerToken = filterToken(BuyerEmail);
         const SellerToken = filterToken(SellerEmail);
         const AdminToken = filterToken(AdminEmail);
-  
+
         if (currentUser?.email === BuyerEmail) {
-       
-           
-            sendNoticationToReceiver(chatname, message, name,SellerToken)
-            sendNoticationToReceiver(chatname, message, name,AdminToken)
+
+
+            sendNoticationToReceiver(chatname, message, name, SellerToken)
+            sendNoticationToReceiver(chatname, message, name, AdminToken)
 
         } else if (currentUser?.email === SellerEmail) {
             //then send the notification to the Buyer and Admin
-            sendNoticationToReceiver(chatname, message, name,BuyerToken)
-            sendNoticationToReceiver(chatname, message, name,AdminToken)
+            sendNoticationToReceiver(chatname, message, name, BuyerToken)
+            sendNoticationToReceiver(chatname, message, name, AdminToken)
 
         }
         else if (currentUser?.email === AdminEmail) {
             //then send the notification to the Buyer and Seller
-            sendNoticationToReceiver(chatname, message, name,BuyerToken)
-            sendNoticationToReceiver(chatname, message, name,SellerToken)
+            sendNoticationToReceiver(chatname, message, name, BuyerToken)
+            sendNoticationToReceiver(chatname, message, name, SellerToken)
 
         }
-        
+
     }
-    const sendNoticationToReceiver= async(chatname, message, name,token)=>{
-        
+    const sendNoticationToReceiver = async (chatname, message, name, token) => {
+
         var data = JSON.stringify({
             data: {},
             notification: {
@@ -230,7 +230,7 @@ const ChatApp = ({ navigation, route }) => {
             },
             data: data,
         };
-       await axios(config)
+        await axios(config)
             .then(function (response) {
                 console.log(JSON.stringify(response.data));
             })
