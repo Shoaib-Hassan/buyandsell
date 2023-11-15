@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "998966989312",
+    "project_id": "pubgm-id-buy-and-sell-a777d",
+    "storage_bucket": "pubgm-id-buy-and-sell-a777d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998966989312:android:75170dce57eb455cd6bee5",
+        "android_client_info": {
+          "package_name": "com.shoaibdeveloper.pubgmidbuyandsell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998966989312-6rfn2o280r20n9hgn2v6lir5e65gd672.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shoaibdeveloper.pubgmidbuyandsell",
+            "certificate_hash": "2baf4a92d579b4e60e2ae81bba3f1c448cca90e1"
+          }
+        },
+        {
+          "client_id": "998966989312-j14b4msekuf2la5upbjtvds79uo4dilv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shoaibdeveloper.pubgmidbuyandsell",
+            "certificate_hash": "604c21c4f529f39b5a03de9d13f4f9a731546b81"
+          }
+        },
+        {
+          "client_id": "998966989312-paobt0evvnod69e5lg17qcgb42mtju0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPhcmBQhY9zelEJugQ17W01M91H1OaOys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998966989312-paobt0evvnod69e5lg17qcgb42mtju0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

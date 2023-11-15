@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": ["@react-native-google-signin/google-signin"],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,13 +19,21 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shoaibdeveloper.pubgmidbuyandsell"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "de3f6ddd-68d5-42e2-ab34-f219afed9bd1"
+      }
     }
   }
 }
+
