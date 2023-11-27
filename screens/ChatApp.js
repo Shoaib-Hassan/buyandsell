@@ -225,7 +225,7 @@ const ChatApp = ({ navigation, route }) => {
             url: 'https://fcm.googleapis.com/fcm/send',
             headers: {
                 Authorization:
-                    'key=AAAA6JcSkgA:APA91bEB6wIUuA_Y_yt4g723G9ydSpCSj7cFVcYNWcE2zMVZUSWYzONa9a5jZMyEh_qaNxkFqTKNbxaEz_R5CdIiD7Ct0Ug-lHfEvDExBswg_noYomP9_bodfLDFYEhwkEqISiaoI-NA',
+                    'SERVERKEYHERE',
                 'Content-Type': 'application/json',
             },
             data: data,
